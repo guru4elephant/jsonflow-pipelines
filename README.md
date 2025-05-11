@@ -10,7 +10,7 @@ JSONFlow是一个专为JSON数据处理而设计的高效库，支持构建灵�
 
 ### 1. [图像标注器 (image_caption)](./image_caption)
 
-**创建日期**: 2024年5月11日
+**创建日期**: 2025年5月11日
 
 **主要功能**:
 - 基于多模态大语言模型的图像内容自动描述
@@ -24,7 +24,7 @@ python image_caption/image_caption_example.py --image /path/to/your/image.jpg --
 
 ### 2. [多模态内容生成器 (mm_caption_generator)](./mm_caption_generator)
 
-**创建日期**: 2024年5月11日
+**创建日期**: 2025年5月11日
 
 **主要功能**:
 - 基于图片生成多模态问答对
@@ -38,7 +38,7 @@ python mm_caption_generator/generate_multimodal_sft_data.py --image-dir=images -
 
 ### 3. [网球视频分析器 (tennis_video_analyzer)](./tennis_video_analyzer)
 
-**创建日期**: 2024年5月11日
+**创建日期**: 2025年5月11日
 
 **主要功能**:
 - 视频关键帧提取
@@ -53,7 +53,7 @@ python tennis_video_analyzer/video_caption_example.py --video=videos/match.mp4 -
 
 ### 4. [LLM验证器构建器 (llm_verifier_builder)](./llm_verifier_builder)
 
-**创建日期**: 2024年5月11日
+**创建日期**: 2025年5月11日
 
 **主要功能**:
 - 基于LLM的文本验证和校验
