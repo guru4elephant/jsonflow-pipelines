@@ -62,6 +62,22 @@ python tennis_video_analyzer/video_caption_example.py --video=videos/match.mp4 -
 
 **使用示例**: 请参考目录下的README.md文件
 
+### 5. [文本语言模型处理流水线 (text_llm_pipeline)](./text_llm_pipeline)
+
+**创建日期**: 2023年6月15日
+
+**主要功能**:
+- 文本预处理和标准化
+- 调用文本大语言模型生成回复
+- 支持单条和批量处理模式
+- 回复内容总结和后处理
+
+**使用示例**:
+```bash
+python text_llm_pipeline/text_llm_example.py --input "你的问题" --api-key YOUR_API_KEY
+python text_llm_pipeline/batch_processing_example.py --api-key YOUR_API_KEY
+```
+
 ## 使用方法
 
 每个pipeline都是独立的，可以单独使用。每个pipeline目录下都包含:

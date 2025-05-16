@@ -1,0 +1,20 @@
+# 文本摘要生成器配置
+model: "qianfan-bloomz-7b"
+base_url: "https://qianfan.baidubce.com/v2"
+api_key: "" # 在这里填写API密钥或通过命令行参数提供
+
+# 提示配置
+prompt: |
+  请对以下文本进行摘要，保留关键信息，用简洁的语言概括主要内容：
+  
+  {input}
+  
+  请以不超过200字的篇幅提供摘要。
+
+# 系统提示
+system_prompt: "你是一个专业的文本摘要工具，擅长提取文本的核心内容并生成准确、简洁的摘要。"
+
+# 生成参数
+max_tokens: 300
+temperature: 0.3
+top_p: 0.95 

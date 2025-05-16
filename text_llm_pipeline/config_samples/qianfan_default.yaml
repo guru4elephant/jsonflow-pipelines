@@ -1,0 +1,18 @@
+# Qianfan默认配置
+model: "qianfan-llama2-7b"
+base_url: "https://qianfan.baidubce.com/v2"
+api_key: "" # 在这里填写API密钥或通过命令行参数提供
+
+# 提示配置
+prompt: |
+  请回答以下问题，简洁准确地提供信息：
+  
+  {input}
+
+# 系统提示
+system_prompt: "你是一个知识渊博、乐于助人的AI助手，注重提供简洁、准确的回答。"
+
+# 生成参数
+max_tokens: 500
+temperature: 0.7
+top_p: 0.9 
